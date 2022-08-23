@@ -1,7 +1,9 @@
 # Project Overview
 You have been tasked with creating the required Infrastructure-as-code scripts for a new cloud environment in AWS. The Lead Solutions Architect for the project sends you the following diagram.  
 
-![p1](p1.png?raw=true "p1")
+![p1](p1.png?raw=true "p1")  
+
+**Create new New Credential Profile**  
 
 ## ToDo
 Write a CloudFormation script that:  
@@ -23,3 +25,11 @@ The numbers in the diagram below show the recommended sequence for resource crea
 
 Because NAT Gateways and Internet Gateway attachments aren’t automatic and take some time to provision, you may need the DependsOn attribute to wait for these events in your script.  
 
+![p3](p3.png?raw=true "p3")
+![p4](p4.png?raw=true "p4")
+![p5](p5.png?raw=true "p5")
+![p6](p6.png?raw=true "p6")
+![p7](p7.png?raw=true "p7")
+![p8](p8.png?raw=true "p8")
+![p9](p9.png?raw=true "p9")
+![p10](p10.png?raw=true "p10")
